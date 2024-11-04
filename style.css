@@ -50,9 +50,9 @@ main {
 }
 
 /* New media query to change height on mobile */
-@media (max-width: 650px) {
+@media (max-width: 0px) {
   .item {
-    height: unset; /* Set height to auto or remove the height property */
+    height: unset; 
   }
 }
 .content {
