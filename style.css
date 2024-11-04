@@ -52,7 +52,7 @@ main {
 /* New media query to change height on mobile */
 @media (max-width: 650px) {
   .item {
-    height: auto; /* Set height to auto or remove the height property */
+    height: unset; /* Set height to auto or remove the height property */
   }
 }
 .content {
