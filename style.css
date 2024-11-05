@@ -20,7 +20,7 @@ main {
 
 .item {
   width: 200px;
-  height: 300px; /* This is the original height for desktop */
+   /* This is the original height for desktop */
   list-style-type: none;
   position: absolute;
   top: 50%;
@@ -49,12 +49,6 @@ main {
   &:nth-child(6) { left: calc(50% + 660px); opacity: 0; }
 }
 
-/* New media query to change height on mobile */
-@media (max-width: 0px) {
-  .item {
-    height: unset; 
-  }
-}
 .content {
   width: min(30vw,400px);
   position: absolute;
