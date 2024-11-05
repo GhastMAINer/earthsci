@@ -19,8 +19,8 @@ main {
 }
 
 .item {
-  width: 200px;
-  height: 300px;
+  width: auto;
+  height: auto;
    /* This is the original height for desktop */
   list-style-type: none;
   position: absolute;
