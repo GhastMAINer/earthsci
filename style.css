@@ -1,11 +1,3 @@
-/* Top footer styles */
-
-
-
-
-
-
-
 /* General styling for Minecraft-like text */
 .minecraft-text {
   font-family: 'Minecraft', 'Arial', sans-serif; /* Use a Minecraft-like font, if available, or fallback to Arial */
@@ -32,7 +24,7 @@
 .description2 {
   font-family: 'Minecraft', 'Arial', sans-serif;
   font-weight: normal;
-  color: #D1D1D1; /* Light grey color for paragraph text */
+  color: #ffffff; /* Light grey color for paragraph text */
   font-size: 1.2rem;
   line-height: 1.6;
   letter-spacing: 1px;
@@ -46,7 +38,7 @@
   font-family: 'Arial', sans-serif; /* Use a formal font like Arial */
   font-weight: normal; /* Regular font weight */
   text-shadow: none; /* No shadow for a clean, formal look */
-  color: #333333; /* Dark gray for readability */
+  color: #ffffff; /* Dark gray for readability */
   font-size: 1.1rem; /* Slightly larger for better visibility */
   line-height: 1.6; /* Line height for readability */
   letter-spacing: normal; /* Normal letter spacing */
@@ -56,7 +48,7 @@
 .fix {
   font-family: 'Arial', sans-serif; /* Formal font */
   font-weight: bold; /* Bold for headings */
-  color: #1d1d1d; /* Dark grey color for titles */
+  color: #ffffff; /* Dark grey color for titles */
   font-size: 24px; /* Set font size */
   text-align: center; /* Centers text */
   margin-bottom: 20px; /* Space after the title */
@@ -72,7 +64,7 @@
 .fix2 {
   font-family: 'Arial', sans-serif; /* Formal font */
   font-weight: normal; /* Regular font weight for body text */
-  color: #181818; /* Dark grey for readability */
+  color: #ffffff; /* Dark grey for readability */
   font-size: 18px; /* Standard font size for paragraphs */
   line-height: 1.6; /* Increase line height for readability */
   text-align: justify; /* Justified text alignment */
