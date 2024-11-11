@@ -1,38 +1,105 @@
 /* Top footer styles */
 
-.fix {
-  text-align: center;
-  font-size: 24px;
+
+
+
+
+
+
+/* General styling for Minecraft-like text */
+.minecraft-text {
+  font-family: 'Minecraft', 'Arial', sans-serif; /* Use a Minecraft-like font, if available, or fallback to Arial */
+  font-weight: bold; /* Bold for that blocky, strong effect */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a shadow for a more 3D blocky effect */
+  color: #00FF00; /* Bright green text color */
+  letter-spacing: 2px; /* Slightly spaced out letters */
+  font-size: 2rem; /* Increase size for better visibility */
+}
+
+/* Apply Minecraft styling to titles */
+.title2 {
+  font-family: 'Minecraft', 'Arial', sans-serif;
   font-weight: bold;
+  color: #FFFFFF;
+  font-size: 2.5rem; /* Larger font size for titles */
+  text-align: center;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8); /* Darker, more prominent shadow for a stronger 3D effect */
+  letter-spacing: 3px;
   margin-bottom: 20px;
 }
 
-.fix2 {
-  font-size: 18px;
+/* Apply Minecraft styling to paragraphs */
+.description2 {
+  font-family: 'Minecraft', 'Arial', sans-serif;
+  font-weight: normal;
+  color: #D1D1D1; /* Light grey color for paragraph text */
+  font-size: 1.2rem;
   line-height: 1.6;
+  letter-spacing: 1px;
   text-align: justify;
   margin-bottom: 20px;
 }
 
+
+/* Formal text style for general text */
+.formal-text {
+  font-family: 'Arial', sans-serif; /* Use a formal font like Arial */
+  font-weight: normal; /* Regular font weight */
+  text-shadow: none; /* No shadow for a clean, formal look */
+  color: #333333; /* Dark gray for readability */
+  font-size: 1.1rem; /* Slightly larger for better visibility */
+  line-height: 1.6; /* Line height for readability */
+  letter-spacing: normal; /* Normal letter spacing */
+}
+
+/* Styling for headings with formal text */
+.fix {
+  font-family: 'Arial', sans-serif; /* Formal font */
+  font-weight: bold; /* Bold for headings */
+  color: #1d1d1d; /* Dark grey color for titles */
+  font-size: 24px; /* Set font size */
+  text-align: center; /* Centers text */
+  margin-bottom: 20px; /* Space after the title */
+  text-shadow: none; /* No text shadow for clarity */
+  letter-spacing: 1px; /* Slightly spaced-out letters for readability */
+  max-width: 800px; /* Restricts the title width for HD look */
+  width: 100%; /* Ensure it uses full width inside its container */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styling for paragraphs with formal text */
+.fix2 {
+  font-family: 'Arial', sans-serif; /* Formal font */
+  font-weight: normal; /* Regular font weight for body text */
+  color: #181818; /* Dark grey for readability */
+  font-size: 18px; /* Standard font size for paragraphs */
+  line-height: 1.6; /* Increase line height for readability */
+  text-align: justify; /* Justified text alignment */
+  letter-spacing: normal; /* Normal letter spacing */
+  margin-bottom: 20px; /* Space after the paragraph */
+}
+
+/* Styling for centering content */
 .center1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Centers children horizontally */
+  align-items: center; /* Centers children vertically */
   flex-direction: column; /* Stack items vertically */
   position: relative;
   top: -200px; /* Moves everything up */
-  width: 100%; /* Ensure it takes up full width */
+  width: 100%; /* Ensures full width */
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px;
-  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+  max-width: 1200px; /* Limits the max width of the container */
 }
+
 .top-footer {
   position: fixed;
   top: 15px;  /* Moves the footer down 15px from the top */
   left: 50%;  /* Centers horizontally */
   transform: translateX(-50%);  /* Centers the footer */
-  width: 20%;  /* Adjust the width as needed */
+  width: 10%;  /* Adjust the width as needed */
   background-color: rgba(255, 255, 255, 0.8);;  /* Solid white background */
   color: black;  /* Makes text black for contrast on white */
   padding: 1rem;  /* Adds padding inside the footer */
@@ -86,10 +153,13 @@ main {
   height: 100%; /* Set height for scrollable area */
   width: 100%;
   overflow-y: scroll; /* Makes the content scrollable */
-  background-color: rgb(35, 35, 37); /* Optional: set background color */
-  color: rgb(165, 165, 165); /* Optional: set text color */
+  background-color: rgb(35, 35, 37); /* Set background color */
+  color: rgb(165, 165, 165); /* Set text color */
+  position: relative;
+  background-image: url('https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e1/End_Stone_background_BE2.png/revision/latest/scale-to-width-down/1920?cb=20210820070054'); /* Set the background image */
+  background-size: cover; /* Ensures the image covers the full area */
+  background-position: center; /* Centers the background image */
 }
-
 
 
 
