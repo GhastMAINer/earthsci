@@ -156,7 +156,7 @@ main {
   background-color: rgb(35, 35, 37); /* Set background color */
   color: rgb(165, 165, 165); /* Set text color */
   position: relative;
-  background-image: url('https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e1/End_Stone_background_BE2.png/revision/latest/scale-to-width-down/1920?cb=20210820070054'); /* Set the background image */
+  background-image: url('https://minecraftnetassets.z13.web.core.windows.net/minecraft-net-assets-container/1.21-new-trial-chambers-patterns.jpg'); /* Set the background image */
   background-size: cover; /* Ensures the image covers the full area */
   background-position: center; /* Centers the background image */
 }
