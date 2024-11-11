@@ -20,7 +20,7 @@
 .title2 {
   font-family: 'Minecraft', 'Arial', sans-serif;
   font-weight: bold;
-  color: #dddddd;
+  color: #98FB98;
   font-size: 2.5rem; /* Larger font size for titles */
   text-align: center;
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8); /* Darker, more prominent shadow for a stronger 3D effect */
@@ -32,7 +32,7 @@
 .description2 {
   font-family: 'Minecraft', 'Arial', sans-serif;
   font-weight: normal;
-  color: #dddddd; /* Light grey color for paragraph text */
+  color: #98FB98; /* Light grey color for paragraph text */
   font-size: 1.2rem;
   line-height: 1.6;
   letter-spacing: 1px;
@@ -46,7 +46,7 @@
   font-family: 'Arial', sans-serif; /* Use a formal font like Arial */
   font-weight: normal; /* Regular font weight */
   text-shadow: none; /* No shadow for a clean, formal look */
-  color: #dddddd; /* Dark gray for readability */
+  color: #98FB98; /* Dark gray for readability */
   font-size: 1.1rem; /* Slightly larger for better visibility */
   line-height: 1.6; /* Line height for readability */
   letter-spacing: normal; /* Normal letter spacing */
@@ -56,7 +56,7 @@
 .fix {
   font-family: 'Arial', sans-serif; /* Formal font */
   font-weight: bold; /* Bold for headings */
-  color: #dddddd; /* Dark grey color for titles */
+  color: #98FB98; /* Dark grey color for titles */
   font-size: 24px; /* Set font size */
   text-align: center; /* Centers text */
   margin-bottom: 20px; /* Space after the title */
@@ -72,7 +72,7 @@
 .fix2 {
   font-family: 'Arial', sans-serif; /* Formal font */
   font-weight: normal; /* Regular font weight for body text */
-  color: #dddddd; /* Dark grey for readability */
+  color: #98FB98; /* Dark grey for readability */
   font-size: 18px; /* Standard font size for paragraphs */
   line-height: 1.6; /* Increase line height for readability */
   text-align: justify; /* Justified text alignment */
