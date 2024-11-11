@@ -14,7 +14,7 @@ body {
   text-align: center;
   overflow: hidden;
   position: relative;
-  background-color: #f7f5ec;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .our-team .picture {
