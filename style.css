@@ -1,3 +1,30 @@
+/* Top footer styles */
+.top-footer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 0.5rem;
+  text-align: center;
+  z-index: 10;
+}
+
+.footer-nav a {
+  color: #101010; /* Changed text color to black for better contrast */
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'arial-black', sans-serif;
+}
+
+.footer-nav a:hover {
+  color: #aed173;
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
