@@ -94,6 +94,21 @@
   max-width: 1200px; /* Limits the max width of the container */
 }
 
+.top-footer {
+  position: fixed;
+  top: 15px;  /* Moves the footer down 15px from the top */
+  left: 50%;  /* Centers horizontally */
+  transform: translateX(-50%);  /* Centers the footer */
+  width: 10%;  /* Adjust the width as needed */
+  background-color: rgba(255, 255, 255, 0.8);;  /* Solid white background */
+  color: black;  /* Makes text black for contrast on white */
+  padding: 1rem;  /* Adds padding inside the footer */
+  text-align: center;  /* Centers the text */
+  border-radius: 15px;  /* Adds rounded edges */
+  z-index: 1000;  /* Ensures it's above other content */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);  /* Stronger shadow with larger blur */
+}
+
 .footer-nav a {
   color: #2a2a2c; /* Changed text color to black for better contrast */
   text-decoration: none;
@@ -141,7 +156,7 @@ main {
   background-color: rgb(35, 35, 37); /* Set background color */
   color: rgb(165, 165, 165); /* Set text color */
   position: relative;
-  background-image: url('https://minecraftnetassets.z13.web.core.windows.net/minecraft-net-assets-container/1.21-new-trial-chambers-patterns.jpg'); /* Set the background image */
+  background-image: url('https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e1/End_Stone_background_BE2.png/revision/latest/scale-to-width-down/1920?cb=20210820070054'); /* Set the background image */
   background-size: cover; /* Ensures the image covers the full area */
   background-position: center; /* Centers the background image */
 }
